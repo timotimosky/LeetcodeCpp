@@ -1,0 +1,14 @@
+
+*.ipch
+*.db
+*.vcxproj
+*.filters
+*.user
+*.log
+*.obj
+*.pch
+*.tlog
+*.idb
+*.pdb
+debug/*
+/debug/*
