@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCodeCpp", "LeetCodeCpp\LeetCodeCpp.vcxproj", "{EA8D1745-63FB-4579-93D4-7F28C88E829B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCodeCpp", "LeetCodeCpp.vcxproj", "{EA8D1745-63FB-4579-93D4-7F28C88E829B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {855F4CFE-0712-4CBF-B090-AEF65C7C6B26}
+		SolutionGuid = {1FCCB4B7-0308-4675-B918-FE314F76F634}
 	EndGlobalSection
 EndGlobal
