@@ -40,7 +40,7 @@ void TestMain()
 {
 	vector<int> nums = vector<int>{ 0,0,1,1,1,2,2,3,3,4 };
 	ListForTest* mListForTest = new ListForTest;
-	int result = mListForTest->removeDuplicates(nums);
+	int result = mListForTest->removeDuplicates2(nums);
 	cout << result << endl;
 
 	//Sort* mSort = new  Sort;

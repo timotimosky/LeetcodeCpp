@@ -39,24 +39,24 @@ public:
 		if (nums.size() == 0)
 			return 0;
 
-		int m = 0;  //慢指针
-		int n = 1;  //快指针
-		int k = 1;//需要被替换的索引
+		int slowPtr = 0;  //慢指针
+		//int fastPtr = 1;  //快指针
+		//int k = 1;//需要被替换的索引
 
-		for (int i =0; i< nums.size(); i++)
+		for (int fastPtr =1; fastPtr < nums.size(); fastPtr++)
 		{
-			if (nums[m]== nums[n])
+			if (nums[slowPtr] != nums[fastPtr])
 			{
-				k = n;
-				n++;
-			}
-			else
-			{
-				nums[k] = nums[n];
-				m = n;
-				n++;
+				slowPtr++;
+				nums[slowPtr] = nums[fastPtr];
 			}
 		}
+
+		for (int fastPtr = 0; fastPtr < nums.size(); fastPtr++)
+		{
+			cout << nums[fastPtr] << endl;
+		}
+		cout << "count---"<< slowPtr << endl;
 
 		return nums.size();
 	}
