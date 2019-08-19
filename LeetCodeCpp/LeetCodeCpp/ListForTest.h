@@ -52,12 +52,15 @@ public:
 			}
 		}
 
+		int finalLenth = slowPtr + 1;
+
+		nums.resize(finalLenth);
 		for (int fastPtr = 0; fastPtr < nums.size(); fastPtr++)
 		{
 			cout << nums[fastPtr] << endl;
 		}
-		cout << "count---"<< slowPtr << endl;
+		cout << "count---"<< finalLenth << endl;
 
-		return nums.size();
+		return finalLenth;
 	}
 };

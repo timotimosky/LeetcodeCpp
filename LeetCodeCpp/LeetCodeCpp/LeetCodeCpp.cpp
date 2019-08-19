@@ -35,13 +35,24 @@ int main()
 	return 0;
 }
 
+//[1, 1, 2]
+//输出
+//[1, 2, 2]
+//预期结果
+//[1, 2]
+
 
 void TestMain()
 {
-	vector<int> nums = vector<int>{ 0,0,1,1,1,2,2,3,3,4 };
 	ListForTest* mListForTest = new ListForTest;
+
+	vector<int> nums = vector<int>{ 0,0,1,1,1,2,2,3,3,4 };
 	int result = mListForTest->removeDuplicates2(nums);
-	cout << result << endl;
+	//cout << result << endl;
+
+	nums = vector<int>{ 1,1,2 };
+	result = mListForTest->removeDuplicates2(nums);
+	//cout << result << endl;
 
 	//Sort* mSort = new  Sort;
 	//mSort->Test();
