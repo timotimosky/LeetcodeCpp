@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "NodeClass.h"
 #include <iostream>
 using namespace std;

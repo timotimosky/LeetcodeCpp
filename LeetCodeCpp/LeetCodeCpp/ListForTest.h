@@ -43,7 +43,7 @@ public:
 		int n = 1;  //快指针
 		int k = 1;//需要被替换的索引
 
-		for (int i =0; i< nums.size; i++)
+		for (int i =0; i< nums.size(); i++)
 		{
 			if (nums[m]== nums[n])
 			{

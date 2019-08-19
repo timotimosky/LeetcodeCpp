@@ -1,9 +1,6 @@
 
 *.ipch
 *.db
-*.vcxproj
-*.filters
-*.user
 *.log
 *.obj
 *.pch

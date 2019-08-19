@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "Sort.h"
 //#include <fstream>
 #include <iostream>

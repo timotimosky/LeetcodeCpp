@@ -1,8 +1,8 @@
-#include "stdafx.h"
+
 #include "Cache.h"
 
 
-Cache::Cache(int cache_size = 10)
+Cache::Cache(int cache_size)
 {
 }
 
@@ -14,7 +14,7 @@ Cache::~Cache()
 int Cache::get(int key)
 {
 	CacheNode *p = p_cache_list_head->next;
-	while (p->next != NULL)
+	while (p->next != __nullptr)
 	{
 		if (p->key == key) //catch node  
 		{
@@ -50,7 +50,7 @@ void Cache::addToFront(CacheNode *node)
 bool Cache::put(int key, int value)
 {
 	CacheNode *p = p_cache_list_head->next;
-	while (p->next != NULL)
+	while (p->next != __nullptr)
 	{
 		if (p->key == key) //catch node  
 		{
@@ -111,7 +111,7 @@ bool Cache::put(int key, int value)
 
 	p = new CacheNode();
 
-	if (p == NULL)
+	if (p == __nullptr)
 		return false;
 
 	//ÅÅÐòµ½Ç°Ãæ
@@ -130,7 +130,7 @@ void Cache::displayNodes()
 {
 	CacheNode *p = p_cache_list_head->next;
 
-	while (p->next != NULL)
+	while (p->next != __nullptr)
 	{
 		p = p->next;
 	}

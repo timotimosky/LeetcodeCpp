@@ -16,7 +16,7 @@ struct Node
 	Node(int x)
 	{
 		value = x;
-		next = NULL;
+		next = nullptr;
 	}
 };
 
