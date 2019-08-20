@@ -39,11 +39,12 @@ public:
 		if (nums.size() == 0)
 			return 0;
 
-		int slowPtr = 0;  //慢指针
+		int slowPtr = 0;  //慢指针 
 		//int fastPtr = 1;  //快指针
 		//int k = 1;//需要被替换的索引
 
-		for (int fastPtr =1; fastPtr < nums.size(); fastPtr++)
+		//快排的思想来做 慢指针+快指针
+		for (int fastPtr =1; fastPtr < nums.size(); fastPtr++)//第一个元素自动默认保留 ，fastPtr从1计算
 		{
 			if (nums[slowPtr] != nums[fastPtr])
 			{
@@ -53,8 +54,8 @@ public:
 		}
 
 		int finalLenth = slowPtr + 1;
-
-		nums.resize(finalLenth);
+		//其实这个解答有漏洞，不重新整理长度，后面的长度还是有重复元素，但 可以默认slowPtr+1后的元素是废弃
+		//nums.resize(slowPtr+1);
 		for (int fastPtr = 0; fastPtr < nums.size(); fastPtr++)
 		{
 			cout << nums[fastPtr] << endl;
@@ -62,5 +63,20 @@ public:
 		cout << "count---"<< finalLenth << endl;
 
 		return finalLenth;
+	}
+
+
+	int removeElement3(vector<int>& nums, int val) {
+		if (nums.size() == 0) return 0;
+		int slowPtr = 0;  //慢指针
+		for (int fastPtr = 0; fastPtr < nums.size(); fastPtr++)
+		{
+ 			if (val != nums[fastPtr])
+			{
+				nums[slowPtr] = nums[fastPtr];
+				slowPtr++;
+			}
+		}
+		return slowPtr ;
 	}
 };

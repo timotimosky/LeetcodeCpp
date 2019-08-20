@@ -30,11 +30,11 @@ void TestList()
 	ListForTest* mListForTest = new ListForTest;
 
 	vector<int> nums = vector<int>{ 0,0,1,1,1,2,2,3,3,4 };
-	int result = mListForTest->removeDuplicates2(nums);
+	int result = mListForTest->removeDuplicates(nums);
 	//cout << result << endl;
 
-	nums = vector<int>{ 1,1,2 };
-	result = mListForTest->removeDuplicates2(nums);
+	nums = vector<int>{ 3,2,2,3 };
+	result = mListForTest->removeElement3(nums,3);
 	//cout << result << endl;
 
 	//Sort* mSort = new  Sort;
