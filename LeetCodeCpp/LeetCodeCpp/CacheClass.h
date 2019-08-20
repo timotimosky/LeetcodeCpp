@@ -1,4 +1,5 @@
 #pragma once
+#include "Cache.h"
 class CacheClass
 {
 public:

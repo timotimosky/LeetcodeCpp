@@ -14,35 +14,18 @@ using namespace std;
 //clock()是C/C++中的计时函数，而与其相关的数据类型是clock_t。在MSDN中，查得对clock函数定义如下：
 //clock_t clock(void);
 
-
-void TestMain();
-
-//增加计时功能、和内存使用功能
-int main()
+void TestSort()
 {
+	Sort* mSort = new Sort;
+	bool ifDD = mSort->TestAllotopia("1234", "2134");
+	cout << "1234 2134是否相等-----"<<ifDD << endl;
 
-	clock_t start, finish;
-	start = clock();
-	cout << "HW .... " << endl;
+	ifDD = mSort->TestAllotopia("anagram","nagaram");
+	cout << "anagram,nagaram是否相等-----" << ifDD << endl;
 
-	TestMain();
-
-	finish = clock(); //这是毫秒，除1000得到秒
-	cout << finish - start << "/" << CLOCKS_PER_SEC << " (s) " << endl;
-
-	//不自动退出命令控制台
-	system("pause");
-	return 0;
 }
 
-//[1, 1, 2]
-//输出
-//[1, 2, 2]
-//预期结果
-//[1, 2]
-
-
-void TestMain()
+void TestList()
 {
 	ListForTest* mListForTest = new ListForTest;
 
@@ -66,6 +49,24 @@ void TestMain()
 }
 
 
+//增加计时功能、和内存使用功能
+int main()
+{
+
+	clock_t start, finish;
+	start = clock();
+	cout << "time cost .... " << endl;
+
+	//TestMain();
+	TestSort();
+
+	finish = clock(); //这是毫秒，除1000得到秒
+	cout << finish - start << "/" << CLOCKS_PER_SEC << " (s) " << endl;
+
+	//不自动退出命令控制台
+	system("pause");
+	return 0;
+}
 
 
 
