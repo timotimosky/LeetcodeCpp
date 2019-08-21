@@ -49,6 +49,18 @@ void TestList()
 }
 
 
+void TesttwoSum()
+{
+	Sort* mSort = new Sort;
+	vector<int>* input = new vector<int>{ 2 , 7, 11, 15 };
+	vector<int> ifDD = mSort->twoSum(*input, 9);
+	/*cout << "1234 2134是否相等-----" << ifDD << endl;
+
+	ifDD = mSort->TestAllotopia("anagram", "nagaram");
+	cout << "anagram,nagaram是否相等-----" << ifDD << endl;*/
+
+}
+
 //增加计时功能、和内存使用功能
 int main()
 {
