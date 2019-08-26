@@ -33,6 +33,12 @@
     <ClCompile Include="Sort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Tree\TreeTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DP\DP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sort.h">
@@ -48,6 +54,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="NodeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\TreeTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DP\DP.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
