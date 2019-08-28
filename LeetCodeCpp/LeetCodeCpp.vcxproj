@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="Cache.cpp" />
     <ClCompile Include="CacheClass.cpp" />
+    <ClCompile Include="CNamecpace.cpp" />
     <ClCompile Include="DP.cpp" />
     <ClCompile Include="LeetCodeCpp.cpp" />
     <ClCompile Include="ListForTest.cpp" />
@@ -160,18 +161,21 @@
     <ClCompile Include="MemoryTest.cpp" />
     <ClCompile Include="NodeClass.cpp" />
     <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="StructStudent.cpp" />
     <ClCompile Include="TreeTest.cpp" />
     <ClCompile Include="VectorTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cache.h" />
     <ClInclude Include="CacheClass.h" />
+    <ClInclude Include="CNamecpace.h" />
     <ClInclude Include="DP.h" />
     <ClInclude Include="ListForTest.h" />
     <ClInclude Include="ListTest.h" />
     <ClInclude Include="MemoryTest.h" />
     <ClInclude Include="NodeClass.h" />
     <ClInclude Include="Sort.h" />
+    <ClInclude Include="StructStudent.h" />
     <ClInclude Include="TreeTest.h" />
     <ClInclude Include="VectorTest.h" />
   </ItemGroup>

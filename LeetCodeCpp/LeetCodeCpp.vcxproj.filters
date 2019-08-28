@@ -34,6 +34,12 @@
     <Filter Include="Vector">
       <UniqueIdentifier>{dddad331-8c0a-4b41-a9ef-d080aaa9114f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Struct">
+      <UniqueIdentifier>{a1c9dc26-d0d3-4880-bdbd-d699fde956dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NameSpace">
+      <UniqueIdentifier>{72c28b81-7185-495a-9119-ba59df3cf8d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCodeCpp.cpp">
@@ -69,6 +75,12 @@
     <ClCompile Include="VectorTest.cpp">
       <Filter>Vector</Filter>
     </ClCompile>
+    <ClCompile Include="StructStudent.cpp">
+      <Filter>Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="CNamecpace.cpp">
+      <Filter>NameSpace</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NodeClass.h">
@@ -100,6 +112,12 @@
     </ClInclude>
     <ClInclude Include="VectorTest.h">
       <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="StructStudent.h">
+      <Filter>Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="CNamecpace.h">
+      <Filter>NameSpace</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
