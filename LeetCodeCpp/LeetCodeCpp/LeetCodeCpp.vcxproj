@@ -156,18 +156,24 @@
     <ClCompile Include="DP\DP.cpp" />
     <ClCompile Include="LeetCodeCpp.cpp" />
     <ClCompile Include="ListForTest.cpp" />
+    <ClCompile Include="List\ListTest.cpp" />
+    <ClCompile Include="MemoryTest\MemoryTest.cpp" />
     <ClCompile Include="NodeClass.cpp" />
     <ClCompile Include="Sort.cpp" />
     <ClCompile Include="Tree\TreeTest.cpp" />
+    <ClCompile Include="Vector\VectorTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cache.h" />
     <ClInclude Include="CacheClass.h" />
     <ClInclude Include="DP\DP.h" />
     <ClInclude Include="ListForTest.h" />
+    <ClInclude Include="List\ListTest.h" />
+    <ClInclude Include="MemoryTest\MemoryTest.h" />
     <ClInclude Include="NodeClass.h" />
     <ClInclude Include="Sort.h" />
     <ClInclude Include="Tree\TreeTest.h" />
+    <ClInclude Include="Vector\VectorTest.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

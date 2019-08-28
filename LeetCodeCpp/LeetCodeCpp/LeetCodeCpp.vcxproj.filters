@@ -39,6 +39,15 @@
     <ClCompile Include="DP\DP.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="List\ListTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector\VectorTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryTest\MemoryTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sort.h">
@@ -60,6 +69,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="DP\DP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="List\ListTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector\VectorTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryTest\MemoryTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
