@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{dcb22dd1-801b-43c8-94ac-c4ed88adff52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DP">
+      <UniqueIdentifier>{50e6421c-fe91-4660-a2cc-7c8f23effa6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{f5b44d98-6447-4622-8ba2-88c022f7926a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache">
+      <UniqueIdentifier>{2baac991-7765-4908-9403-cf51657a2c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sort">
+      <UniqueIdentifier>{e7a1243a-9427-4f33-afb4-2eff545cd1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{da4d33ce-1fce-4a77-9252-20577628bc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{dddad331-8c0a-4b41-a9ef-d080aaa9114f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LeetCodeCpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeTest.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="DP.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryTest.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="CacheClass.cpp">
+      <Filter>Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="Cache.cpp">
+      <Filter>Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="ListTest.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="ListForTest.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTest.cpp">
+      <Filter>Vector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NodeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DP.h">
+      <Filter>DP</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeTest.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryTest.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CacheClass.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="ListForTest.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="ListTest.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorTest.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

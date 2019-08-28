@@ -8,7 +8,7 @@
 #include<vector>
 #include "Sort.h"
 #include "ListForTest.h"
-#include "DP/DP.h"
+#include "DP.h"
 #include <iostream>
 using namespace std;
 

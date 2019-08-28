@@ -67,7 +67,7 @@ void Test(void)
 
 typedef list<int> INTLIST;
 //从前向后显示list队列的全部元素
-void put_list(INTLISTlist, char* name)
+void put_list(INTLIST list, const char* name)
 {
 	INTLIST::iterator plist;
 	cout << "The contents of " << name << " : ";

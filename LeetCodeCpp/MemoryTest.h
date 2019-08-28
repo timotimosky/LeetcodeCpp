@@ -1,4 +1,8 @@
 #pragma once
+#include <memory>
+#include <string>
+#include <iostream>
+using namespace std;
 
 //内存管理
 class MemoryTest
@@ -8,14 +12,14 @@ class MemoryTest
 
 	void TestPtrDelete()
 	{
-		ListNodeClass* mListNodeClass;  //声明的时候为 0xcccccccc
+		MemoryTest* mMemoryTest;  //声明的时候为 0xcccccccc
 
-		mListNodeClass = new ListNodeClass;  //定义后，分配内存为0x01049ef8这个内存是根据情况变化的
-
-		delete mListNodeClass; //删除后，只是删除指针指向的地址的内容，但是没有删除指针指向的地址 所以，现在还是0x01049ef8
+		mMemoryTest = new MemoryTest;  //定义后，分配内存为0x01049ef8这个内存是根据情况变化的
+		mMemoryTest = new MemoryTest();
+		delete mMemoryTest; //删除后，只是删除指针指向的地址的内容，但是没有删除指针指向的地址 所以，现在还是0x01049ef8
 
 		//所以我们还要置空。 置为NULL后，内存为 0x00000000
-		mListNodeClass = NULL;
+		mMemoryTest = nullptr;
 	}
 
 
