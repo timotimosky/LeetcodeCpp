@@ -40,6 +40,9 @@
     <Filter Include="NameSpace">
       <UniqueIdentifier>{72c28b81-7185-495a-9119-ba59df3cf8d2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Template">
+      <UniqueIdentifier>{c5dceb8f-df34-40e2-9f9e-d59bbb2856e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCodeCpp.cpp">
@@ -81,6 +84,9 @@
     <ClCompile Include="CNamecpace.cpp">
       <Filter>NameSpace</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTreeTemplate.cpp">
+      <Filter>Template</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NodeClass.h">
@@ -118,6 +124,9 @@
     </ClInclude>
     <ClInclude Include="CNamecpace.h">
       <Filter>NameSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeTemplate.h">
+      <Filter>Template</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

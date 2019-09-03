@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryTreeTemplate.cpp" />
     <ClCompile Include="Cache.cpp" />
     <ClCompile Include="CacheClass.cpp" />
     <ClCompile Include="CNamecpace.cpp" />
@@ -166,6 +167,7 @@
     <ClCompile Include="VectorTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTreeTemplate.h" />
     <ClInclude Include="Cache.h" />
     <ClInclude Include="CacheClass.h" />
     <ClInclude Include="CNamecpace.h" />
