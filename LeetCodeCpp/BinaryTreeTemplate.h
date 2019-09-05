@@ -1,11 +1,12 @@
 #pragma once
 
-template<typename ValType>
+//先定义一个模板类，然后根据情况初始化不同的类
+template<class ValType>
 class BinaryTnode
 {
 public:
 	ValType value;
-	friend class BinaryTree<ValType>;
+	//friend class BinaryTree<ValType>;
 
 };
 
@@ -16,4 +17,5 @@ class BinaryTreeTemplate
 	//friend class BinaryTree<ValType>;
 
 };
+//#include "stack.cpp"
 

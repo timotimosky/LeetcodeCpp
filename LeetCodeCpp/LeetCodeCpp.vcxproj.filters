@@ -1,18 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="Tree">
       <UniqueIdentifier>{dcb22dd1-801b-43c8-94ac-c4ed88adff52}</UniqueIdentifier>
     </Filter>
@@ -45,12 +33,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LeetCodeCpp.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="NodeClass.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="TreeTest.cpp">
       <Filter>Tree</Filter>
     </ClCompile>
@@ -87,11 +69,18 @@
     <ClCompile Include="BinaryTreeTemplate.cpp">
       <Filter>Template</Filter>
     </ClCompile>
+    <ClCompile Include="TempStack.cpp">
+      <Filter>Template</Filter>
+    </ClCompile>
+    <ClCompile Include="TempTestRun.cpp">
+      <Filter>Template</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeClass.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCodeCpp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NodeClass.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="DP.h">
       <Filter>DP</Filter>
     </ClInclude>
@@ -127,6 +116,15 @@
     </ClInclude>
     <ClInclude Include="BinaryTreeTemplate.h">
       <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="TempStack.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="TempTestRun.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeClass.h">
+      <Filter>List</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

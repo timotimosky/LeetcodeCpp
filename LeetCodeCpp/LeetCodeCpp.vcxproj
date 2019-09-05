@@ -163,6 +163,8 @@
     <ClCompile Include="NodeClass.cpp" />
     <ClCompile Include="Sort.cpp" />
     <ClCompile Include="StructStudent.cpp" />
+    <ClCompile Include="TempStack.cpp" />
+    <ClCompile Include="TempTestRun.cpp" />
     <ClCompile Include="TreeTest.cpp" />
     <ClCompile Include="VectorTest.cpp" />
   </ItemGroup>
@@ -178,6 +180,8 @@
     <ClInclude Include="NodeClass.h" />
     <ClInclude Include="Sort.h" />
     <ClInclude Include="StructStudent.h" />
+    <ClInclude Include="TempStack.h" />
+    <ClInclude Include="TempTestRun.h" />
     <ClInclude Include="TreeTest.h" />
     <ClInclude Include="VectorTest.h" />
   </ItemGroup>
