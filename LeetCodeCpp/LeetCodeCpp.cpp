@@ -10,6 +10,7 @@
 #include "ListForTest.h"
 #include "DP.h"
 #include "TempTestRun.h"
+#include "OperaterTest.h"
 using namespace std;
 
 //在C++中计算运行的时间是调用clock函数，使用clock函数获得程序开始和结束所需的时间，相减就得到程序所花的时间。
@@ -82,7 +83,9 @@ int main()
 	//TestMain();
 	//TestSort();
 	//DPtest();
-	TestTemp();
+	//TestTemp();
+	TestOperater();
+
 	finish = clock(); //这是毫秒，除1000得到秒
 	cout << finish - start << "/" << CLOCKS_PER_SEC << " (s) " << endl;
 

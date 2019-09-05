@@ -31,6 +31,9 @@
     <Filter Include="Template">
       <UniqueIdentifier>{c5dceb8f-df34-40e2-9f9e-d59bbb2856e3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="OperatorReload">
+      <UniqueIdentifier>{b5fb9d83-41ea-49a1-9b8f-0568830167e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TreeTest.cpp">
@@ -79,6 +82,9 @@
       <Filter>List</Filter>
     </ClCompile>
     <ClCompile Include="LeetCodeCpp.cpp" />
+    <ClCompile Include="OperaterReload.cpp">
+      <Filter>OperatorReload</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DP.h">
@@ -125,6 +131,12 @@
     </ClInclude>
     <ClInclude Include="NodeClass.h">
       <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="OperaterReload.h">
+      <Filter>OperatorReload</Filter>
+    </ClInclude>
+    <ClInclude Include="OperaterTest.h">
+      <Filter>OperatorReload</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

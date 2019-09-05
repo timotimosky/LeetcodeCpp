@@ -161,6 +161,7 @@
     <ClCompile Include="ListTest.cpp" />
     <ClCompile Include="MemoryTest.cpp" />
     <ClCompile Include="NodeClass.cpp" />
+    <ClCompile Include="OperaterReload.cpp" />
     <ClCompile Include="Sort.cpp" />
     <ClCompile Include="StructStudent.cpp" />
     <ClCompile Include="TempStack.cpp" />
@@ -178,6 +179,8 @@
     <ClInclude Include="ListTest.h" />
     <ClInclude Include="MemoryTest.h" />
     <ClInclude Include="NodeClass.h" />
+    <ClInclude Include="OperaterReload.h" />
+    <ClInclude Include="OperaterTest.h" />
     <ClInclude Include="Sort.h" />
     <ClInclude Include="StructStudent.h" />
     <ClInclude Include="TempStack.h" />

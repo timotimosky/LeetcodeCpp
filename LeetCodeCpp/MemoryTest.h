@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-//内存管理
+//内存管理 ：普通内存管理 和C++11的动态内存管理
 class MemoryTest
 {
 
