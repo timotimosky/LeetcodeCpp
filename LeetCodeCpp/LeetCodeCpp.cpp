@@ -33,11 +33,11 @@ void TestList()
 	ListForTest* mListForTest = new ListForTest;
 
 	vector<int> nums = vector<int>{ 0,0,1,1,1,2,2,3,3,4 };
-	int result = mListForTest->removeDuplicates(nums);
+	int result = mListForTest->removeDuplicates2(nums);
 	//cout << result << endl;
 
-	nums = vector<int>{ 3,2,2,3 };
-	result = mListForTest->removeElement3(nums,3);
+	//nums = vector<int>{ 3,2,2,3 };
+	//result = mListForTest->removeElement3(nums,3);
 	//cout << result << endl;
 
 	//Sort* mSort = new  Sort;
@@ -55,7 +55,7 @@ void TestList()
 void TesttwoSum()
 {
 	Sort* mSort = new Sort;
-	vector<int>* input = new vector<int>{ 2 , 7, 11, 15 };
+	vector<int> *input = new vector<int>{ 2 , 7, 11, 15 };
 	vector<int> ifDD = mSort->twoSum(*input, 9);
 	/*cout << "1234 2134是否相等-----" << ifDD << endl;
 
@@ -79,12 +79,13 @@ int main()
 	clock_t start, finish;
 	start = clock();
 	cout << "time cost .... " << endl;
-
+	TesttwoSum();
+	//TestList();
 	//TestMain();
 	//TestSort();
 	//DPtest();
 	//TestTemp();
-	TestOperater();
+	//TestOperater();
 
 	finish = clock(); //这是毫秒，除1000得到秒
 	cout << finish - start << "/" << CLOCKS_PER_SEC << " (s) " << endl;

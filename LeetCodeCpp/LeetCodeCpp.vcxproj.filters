@@ -72,9 +72,6 @@
     <ClCompile Include="BinaryTreeTemplate.cpp">
       <Filter>Template</Filter>
     </ClCompile>
-    <ClCompile Include="TempStack.cpp">
-      <Filter>Template</Filter>
-    </ClCompile>
     <ClCompile Include="TempTestRun.cpp">
       <Filter>Template</Filter>
     </ClCompile>

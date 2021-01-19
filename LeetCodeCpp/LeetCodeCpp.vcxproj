@@ -164,7 +164,6 @@
     <ClCompile Include="OperaterReload.cpp" />
     <ClCompile Include="Sort.cpp" />
     <ClCompile Include="StructStudent.cpp" />
-    <ClCompile Include="TempStack.cpp" />
     <ClCompile Include="TempTestRun.cpp" />
     <ClCompile Include="TreeTest.cpp" />
     <ClCompile Include="VectorTest.cpp" />

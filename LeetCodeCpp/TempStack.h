@@ -14,7 +14,7 @@ private:
 	int m_size;
 };
 
-#include "TempStack.cpp"
+//#include "TempStack.cpp"
 
 
 //模板跟普通类不同   
